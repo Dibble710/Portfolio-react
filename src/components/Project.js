@@ -52,7 +52,7 @@ export default function Project() {
                     {project.place}
                   </span>
                   <span>
-                    <strong className="font0bold">Type</strong>:{" "}
+                    <strong className="font-bold">Type</strong>:{" "}
                     {project.projectType}
                   </span>
                   <p className="my-6 text-lg text-gray-700 leading-relaxed">
