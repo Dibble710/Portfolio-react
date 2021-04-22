@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
-import background from "../background-trees.jpg";
+import background from "../background-lake.jpg";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -31,15 +31,15 @@ export default function About() {
     <main className="relative">
       <img src={background} alt="mountainimage" className="absolute" />
       <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="bg-blue-400 rounded-lg shadow-2xl lg:flex p-20">
+        <section className="bg-gradient-to-r from-red-500 to-transparent rounded-lg shadow-2xl lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
             alt={author.name}
-            className="rounded w-32 h-32 lg:w-64 lg:h-64 mn-8"
+            className="rounded w-32 h-32 lg:w-64 lg:h-64 mb-8"
           />
-          <div className="text-lg flex flex-col justify-center">
-            <h1 className="cursive text-6xl text-red-900 mb-4">
-              Hey there. I'm{" "}
+          <div className="text-lg flex flex-col justify-center p-6">
+            <h1 className="cursive text-6xl text-blue-900 mb-4">
+              Hi there, I'm{" "}
               <span className="text-blue-200">{author.name}</span>
             </h1>
             <div className="prose lg:prose-xl text-white">

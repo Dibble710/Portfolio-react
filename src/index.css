@@ -19,3 +19,10 @@
 .home-name {
   font-size: 150px;
 }
+
+.icons-anim {
+  color: white;
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px var(--main-maroon);
+  transition: transform 0.3s ease-out;
+}

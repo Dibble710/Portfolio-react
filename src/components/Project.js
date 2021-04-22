@@ -31,8 +31,8 @@ export default function Project() {
         <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectData &&
             projectData.map((project, index) => (
-              <article className="relative rounded-lg shadow-xl bg-white p-16">
-                <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+              <article className="relative rounded-lg shadow-xl bg-blue-400 p-16">
+                <h3 className="text-black text-3xl font-bold mb-2 hover:text-red-700">
                   <a
                     href={project.link}
                     alt={project.title}
@@ -42,32 +42,30 @@ export default function Project() {
                     {project.title}
                   </a>
                 </h3>
-                <div className="text-gray-500 text-xs space-x-4">
+                <div className="text-black-500 text-xs space-x-4">
                   <span>
-                    <strong className="font-bold">Finished on</strong>:{" "}
+                    <strong className="font-bold text-black">Finished on</strong>:{" "}
                     {new Date(project.date).toLocaleDateString()}
                   </span>
                   <span>
-                    <strong className="font-bold">Company</strong>:{" "}
+                    <strong className="font-bold text-black">Company</strong>:{" "}
                     {project.place}
                   </span>
                   <span>
-                    <strong className="font-bold">Type</strong>:{" "}
+                    <strong className="font-bold text-black">Type</strong>:{" "}
                     {project.projectType}
                   </span>
-                  <p className="my-6 text-lg text-gray-700 leading-relaxed">
+                  <p className="my-6 text-xl text-black  leading-relaxed">
                     {project.description}
                   </p>
                   <a
                     href={project.link}
                     rel="noopener noreferrer"
                     target="_blank"
-                    className="text-green-500 font-bold hover:underline hover:text-red-400 text-xl"
+                    className="text-red-600 font-bold hover:underline hover:text-red-400 text-xl"
                   >
                     View The Project{" "}
-                    <span role="img" aria-label="right pointer">
-                      👉
-                    </span>
+                    
                   </a>
                 </div>
               </article>

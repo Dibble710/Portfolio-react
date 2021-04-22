@@ -10,27 +10,27 @@ export default function Navbar() {
           <NavLink
             to="/"
             exact
-            className="inline-flex items-center py-3 px-6 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+            className="inline-flex items-center py-3 px-6 mr-4 text-red-100 hover:text-blue-400 text-4xl font-bold cursive tracking-widest"
           >
             Tyler Antoni
           </NavLink>
           <NavLink
             to="/post"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800 nav-links"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-blue-400 nav-links"
             activeClassName="text-color-100 bg-red-900"
           >
             Blog Posts
           </NavLink>
           <NavLink
             to="/project"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800 nav-links"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-blue-400 nav-links"
             activeClassName="text-color-100 bg-red-900"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800 nav-links"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-blue-400 nav-links"
             activeClassName="text-color-100 bg-red-900"
           >
             About me!
@@ -42,7 +42,7 @@ export default function Navbar() {
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 35, width: 35 }}
+            style={{ height: 35, width: 35,  }}
           />
           <SocialIcon
             url="https://twitter.com/AirJordan1025"
