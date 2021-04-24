@@ -20,9 +20,23 @@
   font-size: 150px;
 }
 
-.icons-anim {
-  color: white;
-  font-size: 2.4rem;
-  text-shadow: 2px 2px 1px var(--main-maroon);
-  transition: transform 0.3s ease-out;
+
+.nav-background {
+  background: #70A08B;
+}
+
+.about-background {
+  background: #798da7
+}
+
+.bg-for-all {
+  background: #798da7;
+}
+
+.bg-for-project {
+  background: #A9967C;
+}
+
+.nav-links:hover {
+    color: #8B70A0;
 }

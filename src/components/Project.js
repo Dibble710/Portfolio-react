@@ -22,7 +22,7 @@ export default function Project() {
   }, []);
 
   return (
-    <main className="bg-green-100 min-h-screen p-12">
+    <main className="bg-for-all min-h-screen p-12">
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center cursive">My Projects</h1>
         <h2 className="text-lg text-gray-600 flex justify-center mb-12">
@@ -31,7 +31,7 @@ export default function Project() {
         <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectData &&
             projectData.map((project, index) => (
-              <article className="relative rounded-lg shadow-xl bg-blue-400 p-16">
+              <article className="relative rounded-lg shadow-xl bg-for-project p-16">
                 <h3 className="text-black text-3xl font-bold mb-2 hover:text-red-700">
                   <a
                     href={project.link}

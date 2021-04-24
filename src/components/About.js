@@ -31,7 +31,7 @@ export default function About() {
     <main className="relative">
       <img src={background} alt="mountainimage" className="absolute" />
       <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="bg-gradient-to-r from-red-500 to-transparent rounded-lg shadow-2xl lg:flex p-20">
+        <section className="about-background rounded-lg shadow-2xl lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
             alt={author.name}
