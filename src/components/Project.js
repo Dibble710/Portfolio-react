@@ -32,7 +32,7 @@ export default function Project() {
           {projectData &&
             projectData.map((project, index) => (
               <article className="relative rounded-lg shadow-xl bg-for-project p-16">
-                <h3 className="text-black text-3xl font-bold mb-2 hover:text-red-700">
+                <h3 className="text-blue-200 text-3xl font-bold mb-2 hover:text-yellow-300">
                   <a
                     href={project.link}
                     alt={project.title}
@@ -42,17 +42,17 @@ export default function Project() {
                     {project.title}
                   </a>
                 </h3>
-                <div className="text-black-500 text-xs space-x-4">
+                <div className="text-blue-800 text-xs space-x-4">
                   <span>
-                    <strong className="font-bold text-black">Finished on</strong>:{" "}
+                    <strong className="font-bold text-black">Finished on: </strong>{" "}
                     {new Date(project.date).toLocaleDateString()}
                   </span>
                   <span>
-                    <strong className="font-bold text-black">Company</strong>:{" "}
+                    <strong className="font-bold text-black">Company: </strong>{" "}
                     {project.place}
                   </span>
                   <span>
-                    <strong className="font-bold text-black">Type</strong>:{" "}
+                    <strong className="font-bold text-black">Type: </strong>{" "}
                     {project.projectType}
                   </span>
                   <p className="my-6 text-xl text-black  leading-relaxed">
@@ -62,7 +62,7 @@ export default function Project() {
                     href={project.link}
                     rel="noopener noreferrer"
                     target="_blank"
-                    className="text-red-600 font-bold hover:underline hover:text-red-400 text-xl"
+                    className="text-blue-200 font-bold hover:underline hover:text-yellow-300 text-xl"
                   >
                     View The Project{" "}
                     
