@@ -6,8 +6,11 @@ import Post from "./components/Post";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
 
+
+
 function App() {
   return (
+    <div>
     <BrowserRouter>
       <NavBar />
       <Switch>
@@ -18,7 +21,8 @@ function App() {
         <Route component={Project} path="/project" />
       </Switch>
     </BrowserRouter>
-  );
+    </div>
+  )
 }
 
 export default App;

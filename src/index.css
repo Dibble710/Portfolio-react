@@ -1,12 +1,12 @@
 @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@600&family=Lobster&family=Merriweather:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@600&family=Lobster&family=Merriweather:ital,wght@1,300&display=swap");
 .cursive {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .nav-links {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
 }
 
 .prose img {
@@ -15,28 +15,42 @@
   border-radius: 5px;
 }
 
-
 .home-name {
   font-size: 150px;
 }
 
+.name:hover {
+  color: #7da1b1;
+}
 
 .nav-background {
-  background: #70A08B;
+  background: #192231;
+}
+
+.nav-names {
+  background-color: #43455C;
 }
 
 .about-background {
-  background: #798da7
+  background: #494E68;
 }
 
 .bg-for-all {
-  background: #798da7;
+  background: #707793;
 }
 
 .bg-for-project {
-  background: #a07085;
+  background: #43455C;
 }
 
 .nav-links:hover {
-    color: #8B70A0;
+  color: #985E6D;
+}
+
+.project-links:hover {
+  color: #985E6D;
+}
+
+.blog-tag {
+  background-color: #3bba9c8a;
 }
