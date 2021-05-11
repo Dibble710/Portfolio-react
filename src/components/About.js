@@ -30,7 +30,7 @@ export default function About() {
   return (
     <main className="relative">
       <img src={background} alt="mountains" className="absolute" />
-      <div className="p-8 lg:pt-48 container mx-auto relative">
+      <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="about-background rounded-lg shadow-2xl lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
