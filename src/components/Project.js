@@ -24,15 +24,15 @@ export default function Project() {
   return (
     <main className="bg-for-all min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl flex justify-center cursive">My Projects</h1>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">
+        <h1 className="text-5xl flex justify-center cursive title">My Projects</h1>
+        <h2 className="text-lg text-blue-100 flex justify-center mb-12">
           Here are a few of my completed projects!
         </h2>
         <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectData &&
             projectData.map((project, index) => (
               <article className="relative rounded-lg shadow-xl bg-for-project p-16">
-                <h3 className="text-blue-200 text-3xl font-bold mb-2 project-links">
+                <h3 className="text-blue-100 text-3xl font-bold mb-2 project-links">
                   <a
                     href={project.link}
                     alt={project.title}
@@ -42,7 +42,7 @@ export default function Project() {
                     {project.title}
                   </a>
                 </h3>
-                <div className="text-blue-200 text-xs space-x-4">
+                <div className="text-blue-100 text-xs space-x-4">
                   <span>
                     <strong className="font-bold text-black">Finished on: </strong>{" "}
                     {new Date(project.date).toLocaleDateString()}
@@ -62,7 +62,7 @@ export default function Project() {
                     href={project.link}
                     rel="noopener noreferrer"
                     target="_blank"
-                    className="text-blue-200 font-bold hover:underline project-links text-xl"
+                    className="text-blue-100 font-bold hover:underline project-links text-xl"
                   >
                     View The Project{" "}
                     

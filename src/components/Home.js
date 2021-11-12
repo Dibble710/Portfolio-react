@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../background-mountain.jpg";
+import image from "../dark-mountain.jpg";
 
 export default function Home() {
   return (

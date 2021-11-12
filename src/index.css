@@ -20,37 +20,39 @@
 }
 
 .name:hover {
-  color: #7da1b1;
+  color: #17bebb;
 }
 
 .nav-background {
-  background: #192231;
+  background: #d62246;
 }
 
 .nav-names {
-  background-color: #43455C;
+  background-color: #d4f4dd;
+  color: #000;
 }
 
-.about-background {
-  background: #494E68;
+.about-background,
+.bg-for-project {
+  background: rgba(214, 34, 70, .7);
 }
 
 .bg-for-all {
-  background: #707793;
+  background: #121212;
 }
 
-.bg-for-project {
-  background: #43455C;
+.nav-links:hover,
+.name:hover {
+  color: #17bebb;
 }
-
-.nav-links:hover {
-  color: #985E6D;
-}
-
 .project-links:hover {
-  color: #985E6D;
+  filter: brightness(85%);
 }
 
 .blog-tag {
-  background-color: #3bba9c8a;
+  background-color: #d62246;
+}
+
+.title {
+  color: #fff;
 }

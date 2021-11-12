@@ -27,8 +27,8 @@ export default function Post() {
   return (
     <main className="bg-for-all min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl flex justify-center cursive">Blog Posts</h1>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">
+        <h1 className="text-5xl flex justify-center cursive title">Blog Posts</h1>
+        <h2 className="text-lg text-blue-300 flex justify-center mb-12">
           Welcome to my blog page of posts!
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -37,7 +37,7 @@ export default function Post() {
               <article>
                 <Link to={"/post/" + post.slug.current} key={post.slug.current}>
                   <span
-                    className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-blue-400"
+                    className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-blue-300"
                     key={index}
                   >
                     <img
